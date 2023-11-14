@@ -3,6 +3,8 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from './assets/img/White on Transparent.png';
 import navIcon1 from './assets/img/nav-icon1.svg';
 import gitlab from './assets/img/gitlab-logo-700.svg';
+import github from './assets/img/github-logo-700.svg';
+
 
 
 
@@ -47,7 +49,7 @@ function PNav() {
           <span className="navbar-text">
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/brian-johnson-9384528/"><img src={navIcon1} alt="" /></a>
-                <a href="https://gitlab.com/Wyatt002"><img src={gitlab} alt="" /></a>
+                <a href="https://github.com/Wyatt002"><img src={github} alt="" /></a>
             </div>
             <Nav.Link href="#connect">
               <button type="button" className="btn btn-outline-primary">Contact Me</button>
